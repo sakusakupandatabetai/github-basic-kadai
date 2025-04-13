@@ -1,11 +1,10 @@
 PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git add hello_world.txt
-PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git add hello_world.txt
-PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git commit -m "こんにちは、世界！"
-[main e57d0cb] こんにちは、世界！
+PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git commit -m "hello_world.txtを追加"
+[main 3679938] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git commit -m "日本語訳を追記"
+[main dc4ff5b] 日本語訳を追記
  1 file changed, 2 insertions(+), 1 deletion(-)
 PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git log --oneline
-e57d0cb (HEAD -> main) こんにちは、世界！
-06719a0 Hello,world!
-cb8f9b6 05930ff hello_world.txtを追加
-b60cbc8 38eed47(HEAD -> main)日本語訳を追記
-PS C:\Users\sakura\OneDrive\Desktop\git_challenge>
+dc4ff5b (HEAD -> main) 日本語訳を追記
+3679938 hello_world.txtを追加
