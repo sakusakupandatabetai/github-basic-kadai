@@ -1,11 +1,14 @@
 PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git add hello_world.txt
- 1 file changed, 1 insertion(+)
- create mode 100644 hello_world.txt
+PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git commit -m "Hellow,world!"
+[main 941a7ed] Hellow,world!
+ 1 file changed, 2 deletions(-)
+PS C:\Users\sakura\OneDrive\Desktop\git_challenge> echo "こんにちは、世界！" >> hello_world.txt           
 PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git add hello_world.txt
 PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git commit -m "日本語訳を追記"
-[main 4234d44] 日本語訳を追記
- 1 file changed, 2 insertions(+), 1 deletion(-)
+[main a575124] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 PS C:\Users\sakura\OneDrive\Desktop\git_challenge> git log --oneline
-4234d44 (HEAD -> main) 日本語訳を追記
+a575124 (HEAD -> main) 日本語訳を追記
+941a7ed Hellow,world!
+4234d44 日本語訳を追記
 f1cc8a9 hello_world.txtを追加
-PS C:\Users\sakura\OneDrive\Desktop\git_challenge>
