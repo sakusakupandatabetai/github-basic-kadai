@@ -1,0 +1,15 @@
+PS C:\Users\sakura\OneDrive\Desktop\git_challenge> cd C:\Development\git_challenge
+PS C:\Development\git_challenge> git init
+Reinitialized existing Git repository in C:/Development/git_challenge/.git/
+PS C:\Development\git_challenge> git add hello_world.txt
+PS C:\Development\git_challenge> git commit -m "hello_world.txtを追加"
+On branch main
+nothing to commit, working tree clean
+PS C:\Development\git_challenge> git add hello_world.txt
+PS C:\Development\git_challenge> git commit -m "日本語訳を追記"
+On branch main
+nothing to commit, working tree clean
+PS C:\Development\git_challenge> git log --oneline
+a086c97 (HEAD -> main) hello_world.txtを追加
+7bc9bdd 日本語訳を追記
+01e309c hello_world.txtを追加
